@@ -16,12 +16,12 @@
             Dim ipKumulatif As Double = totalIPSemester / jumlahSemester
             txtIPKumulatif.Text = ipKumulatif.ToString("F2")
 
-            If ipKumulatif >= 3.5 Then
-                lblStatus.Text = "Cum Laude"
-            ElseIf ipKumulatif >= 3.0 Then
+            If ipKumulatif >= 3.0 Then
                 lblStatus.Text = "Sangat Memuaskan"
-            ElseIf ipKumulatif >= 2.5 Then
+            ElseIf ipKumulatif >= 2.76 Then
                 lblStatus.Text = "Memuaskan"
+            ElseIf ipKumulatif >= 2.0 Then
+                lblStatus.Text = "Cukup"
             Else
                 lblStatus.Text = "Tidak Memuaskan"
             End If

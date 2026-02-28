@@ -42,10 +42,12 @@ Partial Class Form1
         ' 
         ' txtIPSemester
         ' 
-        txtIPSemester.ForeColor = SystemColors.Menu
+        txtIPSemester.BackColor = Color.WhiteSmoke
+        txtIPSemester.BorderStyle = BorderStyle.None
+        txtIPSemester.ForeColor = SystemColors.WindowText
         txtIPSemester.Location = New Point(362, 117)
         txtIPSemester.Name = "txtIPSemester"
-        txtIPSemester.Size = New Size(253, 28)
+        txtIPSemester.Size = New Size(253, 21)
         txtIPSemester.TabIndex = 1
         ' 
         ' btnTambah
